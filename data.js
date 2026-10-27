@@ -1,0 +1,17 @@
+// Sample products. Replace with real ones. images: ['https://res.cloudinary.com/...jpg'] (first image is shown first).
+window.CATALOG={
+boutique:[
+{id:'b1',name:'Floral Cotton Kurti',category:'Kurtis',price:899,fabric:'Cotton',desc:'Soft, breathable cotton kurti with a floral print.',colors:['Pink','Blue','Yellow'],sizes:['S','M','L','XL'],stock:12,emoji:'👚',tint:'#ffd9e6',images:[]},
+{id:'b2',name:'Anarkali Suit Set',category:'Suits',price:2499,fabric:'Georgette',desc:'Three-piece Anarkali suit with dupatta.',colors:['Maroon','Green','Navy'],sizes:['S','M','L','XL'],stock:6,emoji:'👗',tint:'#e6dcf7',images:[]},
+{id:'b3',name:'Banarasi Saree',category:'Sarees',price:3999,fabric:'Banarasi silk blend',desc:'Rich zari border, blouse piece included.',colors:['Red','Gold','Purple'],sizes:['Free size'],stock:4,emoji:'🥻',tint:'#fde8b8',images:[]},
+{id:'b4',name:'Casual Maxi Dress',category:'Dresses',price:1499,fabric:'Rayon',desc:'Easy everyday maxi dress.',colors:['Black','Teal'],sizes:['S','M','L'],stock:9,emoji:'👗',tint:'#d3f0e1',images:[]},
+{id:'b5',name:'Sequin Party Gown',category:'Party Wear',price:3299,fabric:'Net & satin',desc:'Evening gown with sequin work.',colors:['Wine','Silver'],sizes:['M','L','XL'],stock:3,emoji:'✨',tint:'#ffd0d9',images:[]},
+{id:'b6',name:'Chikankari Kurta Set',category:'Ethnic Wear',price:1899,fabric:'Cotton',desc:'Hand-embroidered chikankari set.',colors:['White','Peach'],sizes:['S','M','L'],stock:0,emoji:'🧵',tint:'#dbeaf7',images:[]}],
+cakes:[
+{id:'c1',cake:true,name:'Chocolate Birthday Cake',category:'Birthday Cakes',weights:{'0.5 kg':600,'1 kg':1100,'2 kg':2100},flavors:['Chocolate','Butterscotch','Vanilla'],shapes:['Round','Heart'],types:['Regular','Eggless'],egglessExtra:0,designs:['Simple','Custom birthday design'],lead:24,desc:'Soft sponge layered with chocolate cream.',stock:1,emoji:'🎂',tint:'#ffe0cc',images:[]},
+{id:'c2',cake:true,name:'Red Velvet Anniversary Cake',category:'Anniversary Cakes',weights:{'0.5 kg':800,'1 kg':1500},flavors:['Red Velvet','Strawberry'],shapes:['Heart','Round'],types:['Eggless'],designs:['Rose topping','Custom'],lead:24,desc:'Cream cheese frosting with rose details.',stock:1,emoji:'❤️',tint:'#ffd0d9',images:[]},
+{id:'c3',cake:true,estimate:true,name:'Two-Tier Wedding Cake',category:'Wedding Cakes',weights:{'3 kg':4500,'5 kg':7500},flavors:['Vanilla','Chocolate','Pineapple'],types:['Regular','Eggless'],designs:['Floral','Classic white'],lead:72,desc:'Final price depends on design. Confirmed on WhatsApp.',stock:1,emoji:'🍰',tint:'#f0e6ff',images:[]},
+{id:'c4',cake:true,estimate:true,name:'Fondant Designer Cake',category:'Designer Cakes',weights:{'1 kg':2200,'2 kg':4000},flavors:['Chocolate','Vanilla'],shapes:['Round','Square'],types:['Regular','Eggless'],egglessExtra:100,designs:['Theme cake','Cartoon','Custom'],lead:72,desc:'Share a reference photo in the chat to get the exact design.',stock:1,emoji:'🎨',tint:'#d9ecfb',images:[]},
+{id:'c5',cake:true,estimate:true,name:'Photo Cake',category:'Photo Cakes',weights:{'1 kg':1300,'2 kg':2400},flavors:['Vanilla','Pineapple','Chocolate'],types:['Regular','Eggless'],designs:['Photo print'],lead:48,desc:'Edible photo print. Send your photo in the chat.',stock:1,emoji:'📷',tint:'#fdf0b8',images:[]},
+{id:'c6',cake:true,name:'Cupcakes',category:'Cupcakes',weights:{'Box of 6':450,'Box of 12':850},flavors:['Chocolate','Vanilla','Red Velvet'],types:['Regular','Eggless'],lead:24,desc:'Frosted cupcakes, box packed.',stock:1,emoji:'🧁',tint:'#d5f0e2',images:[]}]
+};
